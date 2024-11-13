@@ -1,0 +1,77 @@
+/* src/components/LoginForm.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e6ffe6;
+  }
+  
+  .login-header {
+    font-size: 2rem;
+    color: #4caf50;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .login-form {
+    background-color: #f5fff5;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .forgot-password {
+    font-size: 0.9rem;
+    color: #777;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .login-button, .register-button {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .register-button {
+    background-color: #ccc;
+    color: #555;
+  }
+  
+  .separator {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  /* src/App.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6ffe6;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  

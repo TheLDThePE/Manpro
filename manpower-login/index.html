@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/public/ManpowerWebsite.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manpower Web Login Page</title>
+    <style>
+      /* Inline CSS for the header bar */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #e6ffe6;
+      }
+      .header {
+  width: 100%;            /* ทำให้แทบ header ยาวเต็มหน้าจอ */
+  height: 70px;           /* กำหนดความสูงของแทบ header เป็น 70px */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;     /* ปรับระยะห่างด้านในของแทบ header */
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+
+      .logo img {
+        height:77px;
+        margin-right: 10px;
+      }
+
+      .header-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0;
+        margin-right: 80px;
+      }
+
+      /* Add padding to the content below to prevent it from hiding under the fixed header */
+      #root {
+        padding-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section with Logo and Title -->
+    <header class="header">
+      <div class="logo">
+        <img src="/public/ManPro.png" alt="Manpower Logo" />
+        
+      </div>
+      <div class="header-title">Manpower Data Pro Website</div>
+    </header>
+
+    <!-- Root Element for React App -->
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
