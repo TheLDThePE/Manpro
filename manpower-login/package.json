@@ -9,13 +9,12 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "start": "vite",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "vite test",
+    "eject": "echo 'Vite does not support ejecting, no operation will be performed'"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
